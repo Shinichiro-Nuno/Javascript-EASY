@@ -3,5 +3,5 @@ const object = {
   age: 35
 }
 
-object.weight = "50kg";
+delete object.age;
 console.log(object);
