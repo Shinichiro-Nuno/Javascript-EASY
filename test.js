@@ -1,2 +1,2 @@
-const fruit = ["りんご", "みかん", "いちご"];
-console.log(fruit);
+const arr = ["りんご", "みかん", "いちご"];
+console.log(arr[1]);
