@@ -1,2 +1,3 @@
 const arr = ["りんご", "みかん", "いちご"];
-console.log(arr[1]);
+arr[2] = "もも";
+console.log(arr);
