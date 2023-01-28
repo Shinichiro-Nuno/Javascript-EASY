@@ -1,11 +1,7 @@
-const object = {
-  age: 35,
-  weight: 80
+const library = {
+  openHour: "7am ~ 10pm"
 }
 
-const changeAge = (number, obj) => {
-  object.age = number;
-  return object
-}
+library.openHour = "8am ~ 9pm";
 
-console.log(changeAge(30, object));
+console.log(library);
