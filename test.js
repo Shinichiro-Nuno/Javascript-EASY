@@ -1,7 +1,7 @@
 const object = {
-  age: 35,
-  weight: 80
+  name: "Bob",
+  age: 35
 }
 
-++object.age;
+object.weight = "50kg";
 console.log(object);
