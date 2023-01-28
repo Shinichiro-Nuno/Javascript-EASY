@@ -1,7 +1,7 @@
-const library = {
-  openHour: "7am ~ 10pm"
+const object = {
+  age: 35,
+  weight: 80
 }
 
-library.openHour = "8am ~ 9pm";
-
-console.log(library);
+++object.age;
+console.log(object);
