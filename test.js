@@ -1,4 +1,6 @@
-const array = [1,2,3,4,5];
-const array2 = [6,7,8,9,10];
-const array3 = [...array,...array2];
-console.log(array3);
+const object = [
+  {id: 1, name: "John", age: 15},
+  {id: 2, name: "Bob", age: 20},
+  {id: 3, name: "Michael", age: 15}
+];
+console.log(object[2].age);
