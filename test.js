@@ -1,3 +1,11 @@
-const person = {name: "Mike", age: 23};
-const personInfo = {...person, ...{country: "America", job: "software engineer"}};
-console.log(personInfo);
+// const item = {
+//   price: 100
+// }
+
+// const {price} = item;
+
+// console.log(price);
+
+const test = 10 > 15 ? true : false;
+
+console.log(test);
